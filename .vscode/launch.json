@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Samer/OneDrive/Desktop/uni years/year_2/summer/coen_244/assignments/a2",
-      "program": "c:/Users/Samer/OneDrive/Desktop/uni years/year_2/summer/coen_244/assignments/a2/build/Debug/outDebug",
+      "cwd": "c:/Users/Samer/OneDrive/Desktop/uni years/year_2/summer/coen_244/assignments/a3",
+      "program": "c:/Users/Samer/OneDrive/Desktop/uni years/year_2/summer/coen_244/assignments/a3/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
