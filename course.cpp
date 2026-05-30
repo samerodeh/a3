@@ -2,7 +2,10 @@
 #include <string>
 
 
-
+Course::Course() 
+      : department_name(""), course_number(0), course_name("")
+      {
+      }
 
 Course::Course(std::string department_name, int course_number, std::string course_name;) 
       : department_name(department_name), course_number(course_number), course_name(course_name)

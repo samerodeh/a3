@@ -22,6 +22,12 @@ class CourseRegistration : public Course {
         int get_num_enrolled() const;
         // setters
         void set_max_size(int max_size);
+
+        void register_to_course(int student_ids);
+
+        void remove_from_course(int student_ids);
+
+        void print() const; 
         
         
 

@@ -53,12 +53,13 @@ bool CourseRegistration::remove_from_course(int student_id) {
 
       if (student_ids[i] == student_id) {
 
-        student_ids[i] = 
+        student_ids[i] = 0;
+        num_enrolled--;
         return true;
-      }
+      } 
     }
-  }
-} 
+  } return false;
+}   
 
 bool CourseRegistration::is_student_enrolled(int student_id) {
 
