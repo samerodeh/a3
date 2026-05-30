@@ -1,3 +1,7 @@
+#include <iostream>
+#include <string>
+
+
 class Course {
 
 
@@ -9,7 +13,7 @@ class Course {
         std::string course_name; 
 
     public: 
-    
+        Course(); // default constructor
         Course(std::string department_name, int course_number, std::string course_name); // constructor 
         ~Course(); // destructor
 

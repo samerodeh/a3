@@ -1,9 +1,15 @@
+#include "course.h"
+#include <string>
+
+
+
+
 Course::Course(std::string department_name, int course_number, std::string course_name;) 
       : department_name(department_name), course_number(course_number), course_name(course_name)
       {
       }
 
-Course::~Course() {cout << "object destroyed";}
+Course::~Course() {std::cout << "object destroyed";}
 
 std::string Course::get_department_name() const {return std::string department_name;}
 int Course::get_course_number() const {return int course_number;}
